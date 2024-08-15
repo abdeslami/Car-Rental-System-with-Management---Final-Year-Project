@@ -1,0 +1,826 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+.main .head {
+    width:100%;
+}
+.main .head .logo img{
+    width: 120px;
+    height: 120px;
+}
+.main .head .nav {
+    float: left;
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+.main .head .nav{
+    position: relative;
+    top:-90px;
+    left: 150px;
+}
+.main .head .nav .list {
+    display: flex;
+    margin-left: 50px;
+}
+
+.main .head .nav .list p b{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 3rem;
+
+}
+.main .head .nav .list p a{
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2059EB;
+    margin-left: 1rem;
+    transition: 0.5s ease;
+
+
+}
+
+.main .head .nav .list img{
+    width: 64px;
+    height: 64px;
+}
+
+.main .head  .button button {
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    position: absolute;
+    top: 5.4rem;
+    right: 1px;
+    border-radius: 15px;
+    background-color: #2059EB;
+    color: aliceblue;
+    width: 10rem;
+    height: 2rem;
+}
+
+.main .head  .button button +button {
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    position: absolute;
+    top: 5.4rem;
+    right: 12rem;
+    border-radius: 15px;
+    background-color: #2059EB;
+    color: aliceblue;
+    width: 10rem;
+    height: 2rem;
+}
+.main .head  .button button:hover{
+    text-align: center;
+    font-weight: bold;
+    float: right;
+    position: relative;
+    top: -2.4rem;
+    border-radius: 15px;
+    background-color: #293b69;
+    box-shadow: 2px 2px 4px 2px rgba(74, 23, 23, 0.5);
+    color: aliceblue;
+    width: 10rem;
+    font-size: 12px;
+    height: 2.1rem;
+    
+    
+}
+.section{
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section .liste{
+    display: inline-block;
+    padding:  20px 10%;
+}
+.section .liste a{
+    color: aliceblue;
+    font-weight: bold;
+    padding:10px 30px ;
+    text-decoration: none;
+}
+.section .liste a:hover{
+    
+    color: rgb(178, 214, 246);
+    font-weight: 900;
+    border-bottom: #eae6e6 2px solid;
+
+}
+.section .input {
+    display: flex;
+}
+.section .input input{
+    border-radius: 15px;
+    float: left;
+    width: 50vh;
+    height: 5.5vh;
+}
+.section .input img{
+    display: flex;
+    width: 45px;
+    
+    position: absolute;
+    right: 5rem;
+}
+
+.section1{
+    width: 100%;
+    clear: both;
+    display: flex;
+    align-items: center;
+    position: relative;
+   top: -3vh;
+   
+   justify-content: space-around;
+    background: url('/public/supra5.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+}
+.section1 .div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    left: 1rem;
+    height: 45vh;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.section1 .div h1{
+    padding: 10px 2%;
+    font-family:   sans-serif;
+    color: gray;
+    
+}
+.section1 .div form{
+    
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+}
+.section1 .div form  p{
+    color: gray;
+}
+.section1 .div form a{
+    clear: both;
+}
+
+.section1 .div form a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: auto;
+}
+.section1 .div form input{
+    
+    height: 4vh;
+    width: 100%;
+    border-bottom: rgb(65, 64, 64) 3px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+    margin-top: 1rem;
+}
+.section1 div{
+    width: 40%;
+    position: absolute;
+    top: 5rem;
+    right: 4rem;
+}
+.section1 div h2{
+    color: aliceblue;
+    border-bottom: 1px #fff solid ;
+    font-size: 3rem;
+}
+.section1 div .h1{
+    padding: 10px;
+}
+.section1 div p{
+    font-size: 20px;
+    color: #fff;
+}
+.section1 div button {
+    text-align: center;
+    font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 11rem;
+   margin-top: 2rem;
+    border-radius: 15px;
+    background-color: #2059EB;
+    color: aliceblue;
+    width: 10rem;
+    height: 2.3rem;
+}
+.section2{
+    width: 100%;
+}
+.section2 p {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+}
+.section2 p span{
+    color:#2059EB;
+    border-bottom: 1px #2059EB solid ;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.content{
+    padding: 30px 10%;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+
+    width: 100%;
+}
+.content h2{
+   display: flex;
+   align-items: center;
+   margin: 20px 10px;
+   justify-content: center;
+   font-family: Arial;
+
+
+}
+.content h2 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2059EB;
+    margin-right: 10px;
+    border-bottom: #2059EB 1px solid;
+}
+.content  .card{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto;
+    width: 100%;
+}
+
+.content  .card .card1{
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 10px 10px;
+    border-radius: 15px;
+
+    display: block;
+    
+
+    justify-content: center;
+    transition: 0.5s all ease;
+
+}
+.content  .card .card1:hover{
+    border: 1px solid black;
+    background-color: rgb(38, 37, 37);
+    padding: 15px 10px 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(51, 48, 48, 0.5);
+
+    display: block;
+    
+
+    justify-content: center;
+
+}
+.content  .card .card1 img{
+    width: 30vh;
+    border-radius: 15px;
+    height: 100%;
+    float: left;}
+    .content  .card .card1 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        color: #2059EB;
+        text-align: center;
+    }
+    .content  .card .card1 p{
+    letter-spacing: 3px;
+    color: #fff;
+   font-family: Arial;
+
+
+
+        text-align: center;
+    }
+    .content  .card .card1 button{
+        text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    float: right;
+    font-size: 20px;
+    position: relative;
+    border-radius: 15px;
+    background-color: #121e3c;
+    color: aliceblue;
+    width: 10rem;
+    height: 2rem;
+   font-family: Arial;
+
+        }
+        .content  .card .card1 button:hover{
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            float: right;
+            font-size: 20px;
+            position: relative;
+            border-radius: 15px;
+            background-color: #5473c2;
+            color: aliceblue;
+            width: 10rem;
+            height: 2rem;
+           font-family: Arial;
+        }
+.fouter{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-self: center;
+    height: 40vh;
+}
+.fouter .liste{
+    margin-top: 34px;
+}
+.fouter .liste h2{
+    color: aliceblue;
+    
+    border-bottom: #fff 1px solid;
+}
+.fouter .liste ul{
+    color: aliceblue;
+    padding: 10px 20px;
+    list-style-type: none;
+
+}
+
+.fouter .liste ul li{
+    font-weight: 800;
+
+    padding: 5px 5px;
+}
+.fouter .input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10%;
+    border-left: 1px solid white;
+
+}
+.fouter  .input h1{
+    color: #fff;
+}
+.fouter  .input input{
+    border-radius: 15px;
+    width: 50vh;
+    height: 5.5vh;
+}
+.fouter  .input button{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-top: 20px;
+
+    float: right;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #2059EB;
+    color: aliceblue;
+    width: 10rem;
+    height: 2.5rem;
+   font-family: Arial;
+
+}
+.copyright{
+    display: flex;
+    background-color: rgb(40, 47, 47);
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    align-self: center;
+    height: 5vh;
+}
+.copyright span{
+    color: #2059EB;
+}
+
+    @media screen and (min-width: 1001px) and (max-width: 1400px) {
+        .section{
+            position: absolute;
+            width: 100%;
+            background-color: black;
+            clear: both;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .section .liste{
+            display: flex;
+        }
+        .section .liste a{
+            font-weight: bold;
+            font-size: 12px;
+            padding-left: 15px;
+            text-decoration: none;
+        }
+        .section .input {
+            display: flex;
+        }
+        .section .input input{
+            border-radius: 15px;
+            float: left;
+            width: 50vh;
+            height: 5.5vh;
+        }
+        .section .input img{
+            display: flex;
+            width: 45px;
+            
+            position: absolute;
+            right: 5rem;
+        }
+        .section1{
+            width: 100%;
+            clear: both;
+            display: flex;
+            align-items: center;
+            position: relative;
+            bottom:  10rem;
+           
+            justify-content: space-around;
+            background: url('/public/supra5.jpg') ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 60vh;
+        }
+       
+        .content  .card{
+            display: grid;
+            gap: 20px;
+            grid-template-columns: auto auto ;
+            width: 100%;
+        }
+        
+        .content  .card .card1{
+            border: 1px solid black;
+            background-color: black;
+            padding: 10px 10px 10px;
+            border-radius: 15px;
+        
+            display: block;
+            
+        
+            justify-content: center;
+        
+        }
+        .content  .card .card1 img{
+            width: 20vh;
+            border-radius: 15px;
+            height: 100%;
+            float: left;}
+            .content  .card .card1 h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+                color: #2059EB;
+                text-align: center;
+            }
+            .content  .card .card1 p{
+            letter-spacing: 1px;
+            color: #fff;
+           font-family: Arial;
+        
+        
+        
+                text-align: center;
+            }
+            .content  .card .card1 button{
+                text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            float: right;
+            font-size: 20px;
+            position: relative;
+            border-radius: 15px;
+            background-color: #2059EB;
+            color: aliceblue;
+            width: 10rem;
+            height: 2rem;
+           font-family: Arial;
+        
+                }
+        }
+        .carsdisplay {
+            align-items: center;
+            display: grid;
+            gap: 30px;
+            margin:  10rem   ;
+            grid-template-columns: repeat(2, 3fr);
+        }
+        
+        .cardvoiture {
+            background: #eae6e6;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 400px;
+        }
+        
+        .cardvoiture .image {
+            width: 100%;
+            height: 200px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+            transition: 0.3s ease-in-out;
+        }
+        
+        .cardvoiture:hover .image {
+            transform: scale(0.9);
+            margin-top: -120px;
+        }
+        
+        .cardvoiture .image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        
+        .cardvoiture .contentvoiture {
+            text-align: center;
+            height: 35px;
+            overflow: hidden;
+            transition: 0.3s ease-in-out;
+        }
+        
+        .cardvoiture:hover .contentvoiture {
+            height: 210px;
+        }
+        
+        .cardvoiture h2 {
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        
+        .cardvoiture p {
+            margin-bottom: 15px;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+            transition-delay: 0.1s;
+        }
+        
+        .cardvoiture .btn {
+            display: inline-block;
+            text-decoration: none;
+            background: #222;
+            color: #fff;
+            padding: 8px 30px;
+            border-radius: 5px;
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+        }
+        
+        .cardvoiture .btn:hover {
+            background: #000;
+        }
+        
+        .cardvoiture:hover p,
+        .cardvoiture:hover .btn {
+            opacity: 1;
+        }
+.btn-ajouter{
+    float: right;
+    text-decoration: none;
+    background: #222;
+    color: #ffffff;
+    padding: 8px 30px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    
+}
+@media screen and (max-width: 1000px) {
+    body{
+        overflow-x: hidden;
+    }
+   
+    .main .head {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .main .head .logo img{
+        width: 100px;
+        height: 100px;
+        
+    }
+    .main .head .nav {
+        float: left;
+        display: block;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .main .head .nav{
+        position: relative;
+        top:-60px;
+        left: 150px;
+    }
+    .main .head .nav .list {
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .main .head .nav .list p b{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    .main .head .nav .list p a{
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Courier New', Courier, monospace;
+        
+    color: #2059EB;
+    margin-left: 1rem;
+    
+    
+    }
+    .main .head .nav .list img{
+        width: 4rem;
+        height: 4rem;
+    }
+    .main .head  .button{
+        margin-left: 50px;
+        
+    }
+    .main .head  .button button {
+        text-align: center;
+        font-weight: bold;
+        float: right;
+        
+        margin-top: 8rem;
+        border-radius: 15px;
+        background-color: #2059EB;
+        color: aliceblue;
+        width: 10rem;
+        height: 2rem;
+    }
+    .section{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: black;
+        clear: both;
+        padding: 100px;
+    }
+    .section .liste{
+        display: flex;
+        flex-direction: column;
+
+        padding:  20px 10%;
+    }
+    .section .liste a{
+        color: aliceblue;
+        font-weight: bold;
+        padding:10px 30px ;
+        text-decoration: none;
+    }
+    .section .input {
+        display: flex;
+    }
+    .section .input input{
+        border-radius: 15px;
+        float: left;
+        width: 50vh;
+        height: 5.5vh;
+    }
+    .section .input img{
+        display: flex;
+        width: 45px;
+        margin-right: 250px;
+    }
+    .section1{
+        margin-top: 25rem;
+        
+        width: 100%;
+        clear: both;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: space-around;
+        background: url('/public/supra5.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 60vh;
+    }
+    .section1 div{
+        position: absolute;
+        top: 5rem;
+        right: 5rem;
+    }
+    .section1 div h2{
+        color: aliceblue;
+        border-bottom: 1px #fff solid ;
+        font-size: 3rem;
+    }
+    .section1 div .h1{
+        padding: 10px;
+    }
+    .section1 div p{
+        font-size: 20px;
+        color: #fff;
+    }
+    .section1 div button {
+        text-align: center;
+        font-weight: bold;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 11rem;
+       margin-top: 2rem;
+        border-radius: 15px;
+        background-color: #2059EB;
+        color: aliceblue;
+        width: 10rem;
+        height: 2rem;
+    }
+    .content  .card{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto ;
+        width: 100%;
+    }
+    
+    .content  .card .card1{
+        border: 1px solid black;
+        background-color: black;
+        padding: 10px 10px 10px;
+        border-radius: 15px;
+    
+        display: block;
+        
+    
+        justify-content: center;
+    
+    }
+    .content  .card .card1 img{
+        width: 10vh;
+        border-radius: 15px;
+        height: 100%;
+        float: left;}
+        .content  .card .card1 h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+            color: #2059EB;
+            text-align: center;
+        }
+        .content  .card .card1 p{
+        letter-spacing: 1px;
+        color: #fff;
+       font-family: Arial;
+    
+    
+    
+            text-align: center;
+        }
+        .content  .card .card1 button{
+            text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+        float: right;
+        font-size: 20px;
+        position: relative;
+        border-radius: 15px;
+        background-color: #2059EB;
+        color: aliceblue;
+        width: 10rem;
+        height: 2rem;
+       font-family: Arial;
+    
+            }
+    }

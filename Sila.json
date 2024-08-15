@@ -1,0 +1,588 @@
+{
+  "voiture": [
+    {
+      "id": "1",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg/400px-2015_Mazda_MX-5_ND_2.0_SKYACTIV-G_160_i-ELOOP_Rubinrot-Metallic_Vorderansicht.jpg",
+      "title": "Mazda MX-5",
+      "start_production": 1989,
+      "prevPrice": "350",
+      "color": "red",
+      "class": "sport "
+    },
+    {
+      "id": "2",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Kuebelwagen_1.jpg/400px-VW_Kuebelwagen_1.jpg",
+      "title": "Volkswagen Kübelwagen",
+      "color": "gray",
+      "class": "normal",
+      "prevPrice": "550"
+    },
+    {
+      "id": "3",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg/400px-2014_Porsche_Cayenne_%2892A_MY14%29_GTS_wagon_%282015-08-07%29_01.jpg",
+      "title": "Porsche Cayenne",
+      "start_production": 2002,
+      "prevPrice": "350",
+      "color": "white",
+      "class": "luxury"
+    },
+    {
+      "id": "4",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG/400px-Vintage_car_at_the_Wirral_Bus_%26_Tram_Show_-_DSC03336.JPG",
+      "title": "Vauxhall Chevette",
+      "start_production": 1975,
+      "prevPrice": "350",
+      "color": "black",
+      "class": "classic"
+    },
+    {
+      "id": "5",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg/400px-Dynamixion_car_by_Buckminster_Fuller_1933_%28side_views%29.jpg",
+      "title": "Dymaxion car",
+      "start_production": 1933,
+      "prevPrice": "350",
+      "color": "orange",
+      "class": "classic"
+    },
+    {
+      "id": "6",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ford_Crown_Victoria_LX.jpg/400px-Ford_Crown_Victoria_LX.jpg",
+      "title": "Ford Crown Victoria",
+      "start_production": 1955,
+      "prevPrice": "350",
+      "color": "green",
+      "class": "normal"
+    },
+    {
+      "id": "7",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Plymouth_Superbird.jpg/400px-Plymouth_Superbird.jpg",
+      "title": "Plymouth Superbird",
+      "start_production": 1970,
+      "prevPrice": "350",
+      "color": "white",
+      "class": "normal"
+    },
+    {
+      "id": "8",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/2nd-Saab-9000-hatch.jpg/400px-2nd-Saab-9000-hatch.jpg",
+      "title": "Saab 9000",
+      "start_production": 1984,
+      "prevPrice": "350",
+      "color": "white",
+      "class": "Executive car"
+    },
+    {
+      "id": "9",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2003-2005_Pontiac_Sunfire.jpg/400px-2003-2005_Pontiac_Sunfire.jpg",
+      "title": "Pontiac Sunfire",
+      "start_production": 1994,
+      "prevPrice": "350",
+      "color": "gray",
+      "class": "normal"
+    },
+    {
+      "id": "10",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1971_AMC_Javelin_SST_red_Kenosha_street.JPG/400px-1971_AMC_Javelin_SST_red_Kenosha_street.JPG",
+      "title": "AMC Javelin",
+      "start_production": 1967,
+      "prevPrice": "350",
+      "color": "red",
+      "class": "classic"
+    },
+    {
+      "id": "11",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jaguar_X-Type_Estate_front_20080731.jpg/400px-Jaguar_X-Type_Estate_front_20080731.jpg",
+      "title": "Jaguar X-Type",
+      "start_production": 2001,
+      "prevPrice": "350",
+      "color": "black",
+      "class": "luxury"
+    },
+    {
+      "id": "12",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg/400px-VW_Phaton_%282._Facelift%29_%E2%80%93_Frontansicht%2C_7._Mai_2011%2C_D%C3%BCsseldorf.jpg",
+      "title": "Volkswagen Phaeton",
+      "start_production": 2002,
+      "prevPrice": "350",
+      "color": "black",
+      "class": "sport "
+    },
+    {
+      "id": "36",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2000_TVR_Tuscan_4.0_Speed_Six_by_The_Car_Spy.jpg/400px-2000_TVR_Tuscan_4.0_Speed_Six_by_The_Car_Spy.jpg",
+      "title": "TVR Tuscan Speed Six",
+      "start_production": 1999,
+      "prevPrice": "450",
+      "color": "black",
+      "category": "flats",
+      "class": "sports"
+    },
+    {
+      "id": "13",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Aston_Martin_DB9_coupe_02.jpg/400px-Aston_Martin_DB9_coupe_02.jpg",
+      "title": "Aston Martin DB9",
+      "start_production": 2004,
+      "reviews": "(123 reviews)",
+      "prevPrice": "540",
+      "color": "black",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "14",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Pontiac_Catalina_front.jpg/400px-Pontiac_Catalina_front.jpg",
+      "title": "Pontiac Catalina",
+      "start_production": 1950,
+      "reviews": "(123 reviews)",
+      "prevPrice": "740",
+      "color": "green",
+      "category": "flats",
+      "class": "classic"
+    },
+    {
+      "id": "15",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Oldsmobile_Toronado_0003.jpg/400px-Oldsmobile_Toronado_0003.jpg",
+      "title": "Oldsmobile Toronado",
+      "start_production": 1965,
+      "reviews": "(123 reviews)",
+      "prevPrice": "600",
+      "color": "blue",
+      "category": "flats",
+      "class": "classic"
+    },
+    {
+      "id": "16",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chrysler_Cirrus_--_01-27-2012.jpg/400px-Chrysler_Cirrus_--_01-27-2012.jpg",
+      "title": "Chrysler Cirrus",
+      "start_production": 1994,
+      "reviews": "(123 reviews)",
+      "prevPrice": "400",
+      "color": "gray",
+      "category": "flats",
+      "class": "nromal"
+    },
+    {
+      "id": "17",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/English_Ford_Puma.jpg/400px-English_Ford_Puma.jpg",
+      "title": "Volkswagen Corrado",
+      "start_production": 1988,
+      "reviews": "(123 reviews)",
+      "prevPrice": "600",
+      "color": "black",
+      "category": "flats",
+      "class": "sport"
+    },
+    {
+      "id": "18",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Mercedes_R_350_CDI_4MATIC_Lang_%28V251%29_Facelift_front_20101017.jpg/400px-Mercedes_R_350_CDI_4MATIC_Lang_%28V251%29_Facelift_front_20101017.jpg",
+      "title": "Mercedes-Benz R-Class",
+      "prevPrice": "200",
+      "color": "black",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "19",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Volvo_V50_1.6_D.jpg/400px-Volvo_V50_1.6_D.jpg",
+      "title": "Volvo V50",
+      "start_production": 2004,
+      "reviews": "(123 reviews)",
+      "prevPrice": "200",
+      "color": "black",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "20",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Audi_TT_Coup%C3%A9_2.0_TFSI_quattro_S-line_%288S%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg/400px-Audi_TT_Coup%C3%A9_2.0_TFSI_quattro_S-line_%288S%29_%E2%80%93_Frontansicht%2C_3._April_2015%2C_D%C3%BCsseldorf.jpg",
+      "title": "Audi TT",
+      "class": "sport",
+      "prevPrice": "600"
+    },
+    {
+      "id": "21",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/VW_Touareg_Exclusive_V6_TDI_BlueMotion_Technology_%28II%29_%E2%80%93_Frontansicht%2C_3._Juli_2013%2C_M%C3%BCnster.jpg/400px-VW_Touareg_Exclusive_V6_TDI_BlueMotion_Technology_%28II%29_%E2%80%93_Frontansicht%2C_3._Juli_2013%2C_M%C3%BCnster.jpg",
+      "title": "Volkswagen Touareg",
+      "start_production": 2002,
+      "reviews": "(123 reviews)",
+      "prevPrice": "400",
+      "color": "black",
+      "category": "flats",
+      "class": "Mid-size luxury crossover SUV"
+    },
+    {
+      "id": "22",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Red92VR4rear.jpg/400px-Red92VR4rear.jpg",
+      "title": "Mitsubishi GTO",
+      "start_production": 1990,
+      "reviews": "(123 reviews)",
+      "prevPrice": "300,00 ",
+      "color": "black",
+      "category": "flats",
+      "class": "sport"
+    },
+    {
+      "id": "23",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Cadillac_Cimarron_2_--_07-01-2009.jpg/400px-Cadillac_Cimarron_2_--_07-01-2009.jpg",
+      "title": "Cadillac Cimarron",
+      "start_production": 1981,
+      "reviews": "(123 reviews)",
+      "prevPrice": "400",
+      "color": "red",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "24",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1991_Daytona_CS.JPG/400px-1991_Daytona_CS.JPG",
+      "title": "Dodge Daytona",
+      "start_production": 1984,
+      "reviews": "(123 reviews)",
+      "prevPrice": "450",
+      "color": "red",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "25",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cadillac_Allante.jpg/400px-Cadillac_Allante.jpg",
+      "title": "Cadillac Allanté",
+      "start_production": 1986,
+      "reviews": "(123 reviews)",
+      "prevPrice": "700",
+      "color": "black",
+      "category": "flats",
+      "class": "luxury"
+    },
+    {
+      "id": "26",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Toyota_Avensis_III_20090706_front.JPG/400px-Toyota_Avensis_III_20090706_front.JPG",
+      "title": "Toyota Avensis",
+      "start_production": 1997,
+      "reviews": "(123 reviews)",
+      "prevPrice": "200",
+      "color": "black",
+      "category": "flats",
+      "class": "luxury"
+    },
+    {
+      "id": "27",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Mercedes_300SL_Coupe_vr_silver_EMS.jpg/400px-Mercedes_300SL_Coupe_vr_silver_EMS.jpg",
+      "title": "Mercedes-Benz 300 SL",
+      "start_production": 1952,
+      "reviews": "(123 reviews)",
+      "prevPrice": "3140,00",
+      "color": "black",
+      "category": "flats",
+      "class": "classic"
+    },
+    {
+      "id": "29",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Audi_A2_front_20071002.jpg/400px-Audi_A2_front_20071002.jpg",
+      "title": "Audi A2",
+      "start_production": 1999,
+      "reviews": "(123 reviews)",
+      "prevPrice": "200",
+      "color": "gray",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "30",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Oldsmobile-Intrigue.jpg/400px-Oldsmobile-Intrigue.jpg",
+      "title": "Oldsmobile Intrigue",
+      "prevPrice": "740",
+      "color": "white",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "31",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/91RT_1.jpg/400px-91RT_1.jpg",
+      "title": "Dodge Spirit",
+      "start_production": 1989,
+      "reviews": "(123 reviews)",
+      "prevPrice": "800,00DH",
+      "color": "white",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "32",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/%2782-%2784_Pontiac_6000_Coupe.jpg/400px-%2782-%2784_Pontiac_6000_Coupe.jpg",
+      "title": "Pontiac 6000",
+      "start_production": 1982,
+      "reviews": "(123 reviews)",
+      "prevPrice": "140",
+      "color": "gray",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "33",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Dodge-Shadow-Coupe.jpg/400px-Dodge-Shadow-Coupe.jpg",
+      "title": "Dodge Shadow",
+      "start_production": 1986,
+      "reviews": "(123 reviews)",
+      "prevPrice": "240",
+      "color": "white",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "34",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Oldsmobile_Alero_sedan_--_03-16-2012.JPG/400px-Oldsmobile_Alero_sedan_--_03-16-2012.JPG",
+      "title": "Oldsmobile Alero",
+      "start_production": 1998,
+      "reviews": "(123 reviews)",
+      "prevPrice": "240",
+      "color": "white",
+      "category": "flats",
+      "class": "normal"
+    },
+    {
+      "id": "35",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/2006_Chrysler_Crossfire_%28ZH_MY05%29_coupe_%282015-11-11%29_01.jpg/400px-2006_Chrysler_Crossfire_%28ZH_MY05%29_coupe_%282015-11-11%29_01.jpg",
+      "title": "Chrysler Crossfire",
+      "start_production": 2003,
+      "reviews": "(123 reviews)",
+      "prevPrice": "400",
+      "color": "red",
+      "category": "flats",
+      "class": "luxury"
+    },
+    {
+      "id": "159c",
+      "class": "sport",
+      "title": "mouad",
+      "prevPrice": "1254 dh",
+      "start_production": "2024-04-12",
+      "color": "blue",
+      "img": "uploads/1712185079369_996261.jpg",
+      "username": ""
+    },
+    {
+      "id": "159c",
+      "class": "normal",
+      "title": "achraf",
+      "prevPrice": "1811999",
+      "start_production": "2024-04-18",
+      "color": "white",
+      "img": "uploads/1712185459135_461897.jpg",
+      "username": ""
+    },
+    {
+      "id": "159c",
+      "class": "normal",
+      "title": "achraf",
+      "prevPrice": "1811999",
+      "start_production": "2024-04-18",
+      "color": "white",
+      "img": "uploads/1712185644119_269857.jpg",
+      "username": ""
+    },
+    {
+      "id": "159c",
+      "class": "normal",
+      "title": "hellow",
+      "prevPrice": "1811999",
+      "start_production": "2024-04-10",
+      "color": "white",
+      "img": "uploads/1712186070956_199960.jpg",
+      "username": ""
+    },
+    {
+      "id": "159c",
+      "class": "luxury",
+      "title": "mayabakh",
+      "prevPrice": "5000dh",
+      "start_production": "2024-04-11",
+      "color": "green",
+      "img": "uploads/1712187290042_970170.jpg",
+      "username": ""
+    },
+    {
+      "id": "159c",
+      "class": "luxury",
+      "title": "mercicdes",
+      "prevPrice": "1811999",
+      "start_production": "2024-04-25",
+      "color": "white",
+      "img": "uploads/1712187395760_170562.jpg",
+      "username": ""
+    },
+    {
+      "id": "a5a4",
+      "class": "sport",
+      "title": "nissan",
+      "prevPrice": "1200",
+      "start_production": "2024-04-13",
+      "color": "black",
+      "img": "../../../uploads/1712229099282_259068.jpg",
+      "username": ""
+    },
+    {
+      "id": "a5a4",
+      "class": "normal",
+      "title": "logo",
+      "prevPrice": "120",
+      "start_production": "2024-04-18",
+      "color": "black",
+      "img": "uploads/1712229660997_249006.jpg",
+      "username": ""
+    },
+    {
+      "id": "c143",
+      "class": "",
+      "title": "",
+      "prevPrice": "",
+      "start_production": "",
+      "color": "",
+      "img": "../../../uploads/1712232801636_342777.jpg",
+      "username": ""
+    },
+    {
+      "user": "6c52",
+      "class": "",
+      "title": "cars 3",
+      "prevPrice": "400",
+      "start_production": "",
+      "color": "white",
+      "img": "../../../uploads/1712779861214_38815.jpg",
+      "username": "",
+      "id": "6c52"
+    },
+    {
+      "id": "c67b",
+      "user": "3973",
+      "class": "luxury",
+      "title": "adnane",
+      "prevPrice": "1520",
+      "start_production": "2024-04-12",
+      "color": "black",
+      "img": "../../../uploads/1713864728891_519797.jpg",
+      "username": ""
+    },
+    {
+      "id": "da66",
+      "user": "b316",
+      "class": "luxury",
+      "title": "firary",
+      "prevPrice": "1500",
+      "start_production": "2024-04-09",
+      "color": "blue",
+      "img": "../../../uploads/1713965140415_56261.jpg",
+      "username": ""
+    }
+  ],
+  "utilisateur": [
+    {
+      "username": "achraf",
+      "email": "achraftest@gmail.com",
+      "password": "achraf123",
+      "role": "admin",
+      "id": "3973"
+    },
+    {
+      "username": "assia",
+      "password": "assia",
+      "email": "assia@gmail.com",
+      "id": "a33e",
+      "role": "client"
+    },
+    {
+      "username": "bentesta",
+      "email": "bentesta@gmail.ocm",
+      "password": "achraftesta",
+      "role": "admin",
+      "id": "3af9"
+    },
+    {
+      "username": "achraf14",
+      "email": "achraf14@gmail.com",
+      "password": "achraf123",
+      "role": "client",
+      "id": "b987"
+    },
+    {
+      "id": "91df",
+      "username": "achraf",
+      "email": "achraf@gmail.com",
+      "password": "achraf123",
+      "role": "client"
+    },
+    {
+      "username": "hamza",
+      "email": "hamza@gmail.com",
+      "password": "achraf123",
+      "role": "client",
+      "id": "440e"
+    },
+    {
+      "id": "2983",
+      "username": "marwan",
+      "email": "marwan@gmail.com",
+      "password": "achraf123"
+    },
+    {
+      "id": "4712",
+      "image": "1712175214540_722282.jpg",
+      "username": "achraf",
+      "email": "abdeslami@gmail.com"
+    },
+    {
+      "id": "7dc8",
+      "username": "achraf",
+      "email": "achraf@gmail.com",
+      "password": "achraf123"
+    },
+    {
+      "id": "159c",
+      "username": "mouad",
+      "email": "mouad@gmail.com",
+      "password": "achraf123"
+    },
+    {
+      "id": "a5a4",
+      "username": "adnane",
+      "email": "adnane@gmail.com",
+      "password": "adnane123"
+    },
+    {
+      "username": "acvjvhijp",
+      "email": "bijbjijij@gmai.l.com",
+      "password": "snsnlcnncsl",
+      "id": "c143"
+    },
+    {
+      "id": "edfc",
+      "role": "client",
+      "username": "abdeslrahmen",
+      "email": "abdeslrahmen@gmail.com",
+      "password": "achraf123"
+    },
+    {
+      "id": "194d",
+      "role": "client",
+      "username": "khalid bouchrour",
+      "email": "khalid@gmail.com",
+      "password": "achraf123"
+    }
+  ],
+  "contact": [
+    {
+      "id": "c05f",
+      "name": "assia sounani",
+      "email": "assia.sounani@gmail.com",
+      "telephone": "067484648451",
+      "message": "on veut louer une voiture de luxy qui s'appelle voiture de sport"
+    },
+    {
+      "id": "4868",
+      "name": "khalid bouchrour",
+      "email": "khalid@gmail.com",
+      "telephone": "06115545555",
+      "message": "pour voyage\n"
+    }
+  ]
+}
